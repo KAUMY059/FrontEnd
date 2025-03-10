@@ -1,4 +1,4 @@
-// This function changes the text of the hero section button when clicked
+// Function to change button text and color when clicked
 function changeText() {
     const button = document.querySelector('.cta-button');
     button.textContent = 'Thank you for clicking!';
