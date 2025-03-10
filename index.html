@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Modern Website</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="navbar">
-            <h1>My Modern Website</h1>
+            <h1>My Portfolio</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -24,35 +23,42 @@
 
     <section class="hero">
         <div class="hero-content">
-            <h2>Welcome to Our Amazing Website</h2>
-            <p>We're here to help you create something incredible!</p>
+            <h2>Welcome to My Portfolio</h2>
+            <p>Explore my work and get in touch with me!</p>
             <button class="cta-button" onclick="changeText()">Click Me</button>
         </div>
     </section>
 
-    <section class="content">
-        <h2>What We Offer</h2>
-        <div class="services">
-            <div class="service-card">
-                <h3>Service 1</h3>
-                <p>We provide high-quality services tailored to your needs.</p>
-            </div>
-            <div class="service-card">
-                <h3>Service 2</h3>
-                <p>Our team of experts is here to help you succeed.</p>
-            </div>
-            <div class="service-card">
-                <h3>Service 3</h3>
-                <p>We offer a wide range of services for all kinds of businesses.</p>
-            </div>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a passionate web developer with a focus on creating responsive and user-friendly websites. I enjoy learning new technologies and improving my skills.</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p>A brief description of my first project.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <p>A brief description of my second project.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project 3</h3>
+            <p>A brief description of my third project.</p>
         </div>
     </section>
 
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>You can reach me at: <a href="mailto:me@example.com">me@example.com</a></p>
+    </section>
+
     <footer>
-        <p>&copy; 2025 My Modern Website | All Rights Reserved</p>
+        <p>&copy; 2025 My Portfolio | All Rights Reserved</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
-
